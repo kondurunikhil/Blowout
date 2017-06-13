@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text1"
+    tools:context="com.example.nikhil.blowout.developers">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nikhil"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="195dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/devel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/dev2"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView8"
+        android:layout_toStartOf="@+id/imageView8"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/dev3"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/imageView7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginEnd="18dp"
+        android:textColor="#000000"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="59dp"
+        android:text="Pruthvi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="70dp"
+        android:text="Venkatsai"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
